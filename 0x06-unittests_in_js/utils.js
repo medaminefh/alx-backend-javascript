@@ -12,7 +12,8 @@ const Utils = {
       }
       return Math.round(a) / Math.round(b);
     }
+    return 0;
   },
 };
 
-export default Utils;
+module.exports = Utils;
